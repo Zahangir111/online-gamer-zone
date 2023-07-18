@@ -208,6 +208,7 @@ body {
   font-weight: 700;
   line-height: 4.5rem;
 }
+/* gamer section related styles end form here */
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -260,5 +261,21 @@ body {
   .banner-image {
     margin-top: 5rem;
     width: 80%;
+  }
+}
+/* gamer section related media queries for small devices  */
+@media screen and (max-width: 576px) {
+  .gamer-wrap {
+    flex-direction: column;
+  }
+  .gamer-image img {
+    width: 100%;
+  }
+  .gamer-content {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .gamer-description {
+    padding: 0 3.5rem;
   }
 }
