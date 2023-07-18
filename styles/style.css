@@ -1,0 +1,132 @@
+/* work sans font from google */
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital@0;1&family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:wght@400;500;600&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+body {
+  font-family: "Kaushan Script", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* shared related styles here */
+.navbar,
+.banner-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* Header Related Styles Start From Here */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.8rem 0;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-tittle {
+  color: #0b0223;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-left: 2rem;
+}
+.logo-tittle-style {
+  color: #ff42a5;
+  font-size: 4.5rem;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item > li {
+  list-style: none;
+  margin-right: 3.2rem;
+}
+.nav-item > li:last-child {
+  margin-right: 0;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.nav-button {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1.8rem 0 1.8rem 2.4rem;
+  display: flex;
+  align-items: center;
+}
+.nav-button > li {
+  list-style: none;
+}
+.nav-button > li a {
+  margin-right: 2.4rem;
+}
+.nav-buttons a:nth-child(1) {
+  margin-right: 1.6rem;
+}
+.nav-buttons > a i {
+  font-size: 2.4rem;
+}
+.youtube i {
+  color: #f61c0d;
+}
+.tiktok i {
+  color: #0b0223;
+}
+/* banner section related styles from here */
+.banner-section-wrap {
+  background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 1.9rem;
+}
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-tittle {
+  color: #0b0223;
+  font-size: 4.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-gradient-tittle {
+  font-size: 9.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.4rem;
+}
+.icon-list {
+  display: flex;
+  margin-bottom: 1.7rem;
+}
+.icon-list img {
+  margin-right: 1.2rem;
+  width: 24px;
+  height: 24px;
+}
+.icon-list p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+/* banner-section related styles end here */
