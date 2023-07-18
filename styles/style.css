@@ -160,6 +160,27 @@ body {
   margin-left: 2.4rem;
 }
 /* banner-section related styles end here */
+
+/* gamer section related styles start form here */
+.gamer {
+  padding: 5.5rem 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  text-align: right;
+}
+.gamer-tittle {
+  font-size: 4.8rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
