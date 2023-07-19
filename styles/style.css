@@ -292,6 +292,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.644);
+  border-radius: 1.5rem;
+  padding: 13.7rem 13.4rem;
 }
 .card-item:hover .card-hover-item {
   display: block;
