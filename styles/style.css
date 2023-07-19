@@ -328,7 +328,56 @@ body {
   margin-top: -12rem;
   margin-left: -12rem;
 }
-
+/* another play section related styles from here */
+.another-play-section {
+  margin-top: 12rem;
+}
+.another-play-section .play-content {
+  text-align: left;
+}
+.another-play-section .play-instantly-description {
+  text-align: left;
+}
+/* multiple button section here */
+.multiple-button {
+  padding: 12rem 0;
+  background-color: rgb(238 226 226 / 13%);
+}
+.gamer-buttons-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.buttons-area {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.4rem;
+}
+.buttons-area li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1rem 2rem 1rem 1rem;
+  padding: 1rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.buttons-area li:hover {
+  border-radius: 5rem;
+  background: #fff;
+  border: 2px solid #ff42a5;
+}
+.buttons-area li a {
+  text-decoration: none;
+  padding-left: 1.6rem;
+  color: #0b0223;
+  font-size: 2rem;
+  font-weight: 600;
+}
+/* 
+================================================================================================================================================================================= */
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -469,7 +518,14 @@ body {
     width: 50%;
     margin-left: -5rem;
   }
+  .another-play-section .play-content {
+    text-align: center;
+  }
+  .another-play-section .play-instantly-description {
+    text-align: center;
+  }
 }
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .play-instantly {
     flex-direction: column;
@@ -489,5 +545,32 @@ body {
   }
   .play-bottom-image img {
     width: 40%;
+  }
+}
+/* game button section related styles start from here */
+@media screen and (max-width: 576px) {
+  .multiple-button {
+    padding: 0 3rem;
+    margin-top: 5rem;
+  }
+  .buttons-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .buttons-area li a {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .multiple-button {
+    padding: 0 3rem;
+    margin-top: 5rem;
+  }
+  .buttons-area {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .buttons-area li a {
+    font-size: 1.5rem;
   }
 }
