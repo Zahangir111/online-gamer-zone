@@ -328,6 +328,7 @@ body {
   margin-top: -12rem;
   margin-left: -12rem;
 }
+
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -414,8 +415,79 @@ body {
 @media screen and (max-width: 576px) {
   .card {
     flex-direction: column;
+    text-align: center;
   }
   .gamer-card {
     padding: 0 5rem;
+  }
+  .card-item-image {
+    margin: 0 auto;
+  }
+  .card-description {
+    margin-top: 2.4rem;
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-item-image {
+    margin: 0 auto;
+  }
+  .card-description {
+    margin-top: 2.4rem;
+    margin-bottom: 5rem;
+  }
+}
+/* play instantly section media query here */
+@media screen and (max-width: 576px) {
+  .play-instantly {
+    flex-direction: column;
+    margin-top: 8rem;
+    gap: 5rem;
+  }
+  .play-content {
+    text-align: center;
+    margin-right: 0;
+  }
+  .play-tittle {
+    font-size: 3rem;
+  }
+  .play-instantly-description {
+    text-align: center;
+  }
+  .play-image {
+    width: 75%;
+  }
+  .play-image img {
+    width: 95%;
+  }
+  .play-bottom-image img {
+    margin-right: 0;
+    width: 50%;
+    margin-left: -5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .play-instantly {
+    flex-direction: column;
+
+    gap: 5rem;
+  }
+  .play-content {
+    margin-right: 0;
+    text-align: center;
+  }
+  .play-image {
+    width: 70%;
+    padding: 0 5rem;
+  }
+  .play-image img {
+    width: 95%;
+  }
+  .play-bottom-image img {
+    width: 40%;
   }
 }
