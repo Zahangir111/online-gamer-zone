@@ -513,6 +513,9 @@ body {
     margin-top: 5rem;
     width: 80%;
   }
+  .banner-button {
+    margin-bottom: 5rem;
+  }
 }
 /* gamer section related media queries for small devices and medium devices  */
 @media screen and (max-width: 576px) {
@@ -644,6 +647,7 @@ body {
   .multiple-button {
     padding: 0 3rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .buttons-area {
     grid-template-columns: repeat(3, 1fr);
