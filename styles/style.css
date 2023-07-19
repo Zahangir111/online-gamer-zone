@@ -305,6 +305,7 @@ body {
 }
 .play-content {
   text-align: right;
+  margin-right: 12rem;
 }
 .play-tittle {
   color: #0b0223;
@@ -320,7 +321,13 @@ body {
   line-height: 3rem;
   text-align: right;
 }
-
+.play-bottom-image img {
+  display: block;
+  border-radius: 8px;
+  border: 10px solid #fff;
+  margin-top: -12rem;
+  margin-left: -12rem;
+}
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
