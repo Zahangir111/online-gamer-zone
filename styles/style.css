@@ -209,63 +209,7 @@ body {
   line-height: 4.5rem;
 }
 /* gamer section related styles end form here */
-/* header related media queries here */
-@media screen and (max-width: 576px) {
-  .navbar,
-  .nav-item,
-  .banner-section {
-    flex-direction: column;
-  }
-  .banner-section {
-    flex-direction: column-reverse;
-  }
-  .nav-button {
-    margin-top: 6.2rem;
-  }
-  .nav-item > li {
-    margin-top: 6.2rem;
-  }
-  .banner-image {
-    width: 80%;
-  }
-  .banner-content {
-    margin-top: 3rem;
-  }
-  .banner-gradient-tittle {
-    font-size: 7rem;
-    text-align: center;
-  }
-  .banner-section-wrap {
-    background-position: bottom;
-    margin-top: 3rem;
-  }
-  .banner-tittle {
-    font-size: 3.8rem;
-    text-align: center;
-  }
-  .banner-button {
-    margin-top: 5rem;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  .navbar {
-    flex-direction: column;
-  }
-  .logo {
-    margin-bottom: 5rem;
-  }
-  .banner-section {
-    flex-direction: column-reverse;
-  }
-  .banner-content {
-    margin-top: 3rem;
-  }
-  .banner-image {
-    margin-top: 5rem;
-    width: 80%;
-  }
-}
+
 /* gamer card section related styles start from here */
 .gamer-card {
   max-width: 1440px;
@@ -350,6 +294,63 @@ body {
   display: block;
   cursor: pointer;
 }
+/* header related media queries here */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-item,
+  .banner-section {
+    flex-direction: column;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .nav-button {
+    margin-top: 6.2rem;
+  }
+  .nav-item > li {
+    margin-top: 6.2rem;
+  }
+  .banner-image {
+    width: 80%;
+  }
+  .banner-content {
+    margin-top: 3rem;
+  }
+  .banner-gradient-tittle {
+    font-size: 7rem;
+    text-align: center;
+  }
+  .banner-section-wrap {
+    background-position: bottom;
+    margin-top: 3rem;
+  }
+  .banner-tittle {
+    font-size: 3.8rem;
+    text-align: center;
+  }
+  .banner-button {
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 5rem;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    margin-top: 3rem;
+  }
+  .banner-image {
+    margin-top: 5rem;
+    width: 80%;
+  }
+}
 /* gamer section related media queries for small devices and medium devices  */
 @media screen and (max-width: 576px) {
   .gamer-wrap {
@@ -373,5 +374,14 @@ body {
   }
   .gamer-image img {
     width: 95%;
+  }
+}
+/* card related media query styles here */
+@media screen and (max-width: 576px) {
+  .card {
+    flex-direction: column;
+  }
+  .gamer-card {
+    padding: 0 5rem;
   }
 }
