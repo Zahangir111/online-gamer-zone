@@ -294,6 +294,33 @@ body {
   display: block;
   cursor: pointer;
 }
+/* play instantly section related styles here */
+.play-instantly {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  gap: 12rem;
+  align-items: center;
+}
+.play-content {
+  text-align: right;
+}
+.play-tittle {
+  color: #0b0223;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.play-instantly-description {
+  margin-top: 2.4rem;
+  color: #534c64;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: right;
+}
+
 /* header related media queries here */
 @media screen and (max-width: 576px) {
   .navbar,
