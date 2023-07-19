@@ -57,6 +57,10 @@ body {
 .nav-item > li {
   list-style: none;
   margin-right: 3.2rem;
+  transition: 0.2s ease-out;
+}
+.nav-item > li:hover {
+  opacity: 0.7;
 }
 .nav-item > li:last-child {
   margin-right: 0;
@@ -76,6 +80,10 @@ body {
 }
 .nav-button > li {
   list-style: none;
+  transition: 0.2s ease;
+}
+.nav-button > li:hover {
+  opacity: 0.8;
 }
 .nav-button > li a {
   margin-right: 2.4rem;
